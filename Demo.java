@@ -1,4 +1,3 @@
-package Telusko;
 
 class Calculator
 {
