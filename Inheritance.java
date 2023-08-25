@@ -43,7 +43,7 @@ class C extends B
     }
 }
 
-class Solution
+class Inheritance
 {
     public static void main(String[] args)
     {
@@ -53,6 +53,7 @@ class Solution
     }
 }
 
+// Inheritance :-   When a chile class use all the properties of the parent class.
 // Java can not allowed multi - Inheritance.
 // Java can allowed to multi - level Inheritance.
 // By the use of super we can call the constructor of the super or parent call from sub or child class.
