@@ -38,8 +38,8 @@ class C extends B
     }
     public C(int n)
     {
+        super(5);
         System.out.println("This is Parameterise Constructor of Class C");
-
     }
 }
 
