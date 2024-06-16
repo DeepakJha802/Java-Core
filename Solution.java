@@ -14,7 +14,7 @@ class B extends A            // This is Sub-Class
 {
     public B()
     {
-        // this(5);
+        this(5);
         System.out.println("This is Default constructor of Class B");
     }
 
@@ -29,7 +29,7 @@ class B extends A            // This is Sub-Class
     }
 }
 
-class C extends B
+class C extends B 
 {
     public C()
     {
@@ -48,7 +48,7 @@ class Solution
     public static void main(String[] args)
     {
         B ob = new B();
-        // ob.print();
+        ob.print();
         // B obj = new B(5);
     }
 }

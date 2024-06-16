@@ -23,7 +23,7 @@ class B extends A       // Child or Sub-class of Class A
         this(0);
         System.out.println("This is constructor of class B");
     }
-    public B(int n)                       // Parameterise Constructor 
+    public B(int n)                       // Parameterise Constructor
     {
         super(n);
         System.out.println("This is the constructor of class B and value of N :" + n);
@@ -41,3 +41,5 @@ class Dynamic_Method_Dispatch
     }
 }
 // Dynamic Method Dispatch in Java is the process by which a call to an overridden method is resolved at runtime (during the code execution).
+// This is also known as upcasting.
+// Java uses this fact to resolve calls to overridden methods at run time.
